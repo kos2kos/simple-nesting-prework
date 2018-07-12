@@ -56,7 +56,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     programmer_hash[:dennis_ritchie][:languages]
+     programmer_hash[:dennis_ritchie][:languages][0]
 end
 
 def adding_matz
@@ -87,7 +87,10 @@ def adding_matz
 
     programmer_hash[:matz] = {
           :known_for => "",
-          :languages => []}
+          :languages => []
+      :yukihiro_matsumoto =>{:known_for => "Ruby",
+    :languages => ["LISP, C"]}
+    }
 end
 
 def changing_alan
