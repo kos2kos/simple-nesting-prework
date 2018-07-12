@@ -88,8 +88,8 @@ def adding_matz
     
 end
 
-def changing_alan(value,key)
-		programmer_hash = 
+def changing_alan
+		changing_alan = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
